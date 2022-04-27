@@ -1,0 +1,59 @@
+
+html{
+    box-sizing:border-box;
+}
+*, *:before, *:after{
+    box-sizing:inherit;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.text{
+    max-width:80%;
+    margin:0px auto;
+    margin-bottom:10px;
+}
+h1{
+    font-weight:700;
+    font-size:1.5rem;
+    color:hsl(218, 44%, 22%);
+}
+h2{
+    font-weight:400;
+    font-size:0.9rem;
+    margin: 0px auto;
+    margin-bottom:40px;
+    max-width:75%;
+    margin: 0px auto;
+    color: hsl(220, 15%, 55%);
+}
+
+
+.qr-card{
+    background-color:white;
+    display:inline-block;
+    max-width:400px;
+    height:auto;
+    border-radius:3%;
+    position:relative;
+    left:50%;
+    margin-left:-200px;
+    margin-top:50px;
+}
+
+.content-wrap{
+    text-align:center;
+    margin:5% auto;
+}
+
+.content-wrap img{
+    width:90%;
+    /* height:; */
+}
+
+.attribution{
+    margin-top:20px;
+}
